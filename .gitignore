@@ -231,3 +231,6 @@ composer.lock
 github.php
 .cache
 .viminfo
+.bash_history
+.gitconfig
+.mysql_history
