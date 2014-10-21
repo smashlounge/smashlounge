@@ -3,13 +3,6 @@
   require("techs/twitch.php");
   require("techs/initUser.php");
   require_once("techs/sentry.php");
-  $username = $_GET['username'];
-    $loggedIn = false;
-    if (Sentry::check())
-    {
-        $loggedIn = true;
-        $user = Sentry::getUser();
-    }
 ?>
 <!--
 
